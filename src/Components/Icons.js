@@ -6,9 +6,12 @@ class Icons extends Component {
     componentDidMount (){
         window.addEventListener('scroll',function () {
             console.log($(window).scrollTop())
-            if ($(window).scrollTop() > 280) {
+            console.log($('#logo').height())
+            if ($(window).scrollTop() > $('#logo').height()) {
+                console.log("it changed 1");
                 document.querySelector("#nav_bar").classList.add('navbar-fixed')}
-            if ($(window).scrollTop() < 281) {
+            if ($(window).scrollTop() < $('#logo').height() + 10) {
+                console.log("it changed 2");
                 document.querySelector("#nav_bar").classList.remove('navbar-fixed')}
 
         })

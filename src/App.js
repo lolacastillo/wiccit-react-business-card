@@ -12,6 +12,7 @@ function App() {
         <Logo/>
       <Icons/>
       <Cbody/>
+      <Cbody/>
       </div>
   );
 }
