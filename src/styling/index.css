@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-image: url("../styling/wiccitbg.jpeg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+#logo {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+#icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.zoom {
+    padding: 0px;
+    background-color: black;
+    transition: transform .2s; /* Animation */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom)*/
+}
+
+.fa-facebook-square {
+    color: white;
+}
+
+.fa-address-card {
+    color: white;
+}
+
+.fa-bandcamp {
+    color: white;
+}
+
+.fa-soundcloud {
+    color: white;
+}
+
+
+/*image rotation animation*/
+
+.rotate {
+    animation: rotation 20s;
+}
+
+.linear {
+    animation-timing-function: linear;
+}
+
+.infinite {
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

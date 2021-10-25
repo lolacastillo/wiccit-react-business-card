@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import './styling/App.css';
+import Logo from "./Components/Logo";
 
 function App() {
   return (
-    <p className="text-center text-green-500">
-      Hi Mom!
-    </p>
+      <Logo></Logo>
   );
 }
 
