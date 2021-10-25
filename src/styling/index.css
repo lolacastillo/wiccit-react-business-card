@@ -8,6 +8,8 @@ body {
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vw;
+    width: 100%;
 
 }
 
@@ -15,35 +17,55 @@ img {
     border-radius: 50%;
 }
 
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+#body_div {
+    top: 0;
+    position: relative;
+    height: 100vh;
+    background-color: green;
+}
+
+#nav_bar {
+    border: 0;
+    color: white;
+    background-color: #202020;
+    border-radius: 0px;
+    margin-bottom: 0;
+    height: 10vh;
+}
+
+.nav_links {
+    margin: 0;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-top: 4px;
+}
+.nav_links li a {
+    padding: 0 15.5px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+
+
+
 #logo {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     /*align-items: center;*/
 }
 
-#icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-}
 
-.zoom {
-    padding: 0px;
-    background-color: black;
-    transition: transform .2s; /* Animation */
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom)*/
-}
 
 .fa-facebook-square {
     color: white;
