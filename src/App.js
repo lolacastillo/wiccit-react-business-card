@@ -1,9 +1,13 @@
 import './styling/App.css';
 import Logo from "./Components/Logo";
+import Icons from "./Components/Icons"
 
 function App() {
   return (
-      <Logo></Logo>
+      <div>
+      <Logo/>
+      <Icons/>
+      </div>
   );
 }
 
