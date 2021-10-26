@@ -34,13 +34,14 @@ img {
 #nav_bar {
     border: 0;
     color: white;
-    background-color: #202020;
+    background-color: white;
     border-radius: 0px;
     margin-bottom: 0;
-    height: 10vh;
 }
 
 .nav_links {
+    display: flex;
+
     margin: 0;
 }
 
@@ -58,7 +59,7 @@ img {
 
 
 #logo {
-    height: 90vh;
+    height: 94vh;
     display: flex;
     justify-content: center;
     /*align-items: center;*/
@@ -106,3 +107,7 @@ img {
         transform: rotate(359deg);
     }
 }
+
+
+
+
