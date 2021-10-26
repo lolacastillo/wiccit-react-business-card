@@ -1,0 +1,63 @@
+.fa-facebook-square {
+    color: gray;
+}
+
+.fa-address-card {
+    color: gray;
+}
+
+.fa-bandcamp {
+    color: gray;
+}
+
+.fa-soundcloud {
+    color: gray;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+#body_div {
+    top: 0;
+    position: relative;
+    height: 100vh;
+    background-color: green;
+}
+
+#nav_bar {
+    border: 0;
+    color: white;
+    background-color: white;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.nav_links {
+    display: flex;
+
+    margin: 0;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-top: 4px;
+}
+.nav_links li a {
+    padding: 0 15.5px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+
+
+
+#logo {
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}

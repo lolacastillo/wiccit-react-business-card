@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from "../styling/wiccitlogo.png";
-import "../styling/index.css";
+import "../styling/logo.css";
 
 const Logo = () => {
     return (

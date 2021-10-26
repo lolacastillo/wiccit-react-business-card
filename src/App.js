@@ -1,8 +1,8 @@
 import './styling/App.css';
 import Logo from "./Components/Logo";
-import Icons from "./Components/Icons"
-import Cbody from "./Components/Cbody";
+import About from "./Components/About";
 import useScript from "./hooks/useScripts";
+import Navbar from "./Components/Navbar";
 
 function App() {
     useScript("../src/myScript.js")
@@ -10,9 +10,9 @@ function App() {
     return (
       <div className="">
         <Logo/>
-      <Icons/>
-      <Cbody/>
-      <Cbody/>
+      <Navbar/>
+      <About/>
+      <About/>
       </div>
   );
 }

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import "../styling/index.css";
+import "../styling/navbar.css";
 import $ from "jquery";
 
-class Icons extends Component {
+class Navbar extends Component {
 
     componentDidMount() {
         window.addEventListener('scroll', function () {
@@ -61,4 +61,4 @@ class Icons extends Component {
     }
     }
 
-    export default Icons
+    export default Navbar
